@@ -1,0 +1,164 @@
+body{
+    font-family: sans-serif;
+    color: #545454;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #545454;
+}
+.container{
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 30px;
+    background-color: #14bdac;
+    box-shadow: 5px 10px 18px #888888;
+
+
+}
+.Records{
+    background-color: #14bdac;
+    padding: 20px;
+    margin: 30px;
+    background-color: #14bdac;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 10px 18px #888888;
+    width: 34%;
+
+}
+span{
+    color: white;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom:10px ;
+    height: 10px;
+    
+  }
+  .names{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 10px;
+           
+  }
+  p{
+      height: 10px;
+  }
+  .nameCul1,.nameCul2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+
+  }
+  #namePlayer1,#namePlayer2{
+      background-color: #14bdac;
+      border-color: #545454;
+      border-radius: 20px;
+  }
+
+.board{
+   
+
+    display: flex;
+    /* margin: 20px 0; */
+    padding: 30px;
+    box-shadow: black;
+    
+
+    
+   
+}
+
+.cells{
+    height: 100px;
+    width: 100px;
+    font-size: 70px;
+    color: #545454;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Row1 , .Row2{
+    border-right: 5px solid #0da192;
+    
+}
+.cul1,.cul2{
+    border-bottom: 5px solid #0da192;
+
+}
+
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #14bdac;
+    color: #545454;
+    border-color:#14bdac;
+    font-size: 18px;
+  }
+  button:hover{
+    color: white;
+    border-color:white;
+
+
+  }
+  #player {
+    margin: 0 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+
+
+
+  }
+  .names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  #namePlayer1 ,#namePlayer2{
+    margin: 0 10px;
+  }
+  .win{
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, .9);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      color: wheat;
+      align-items: center;
+      font-size: 100px;
+  }
+  #playerWin{
+      margin: 150px;
+      font-size: 60px;
+      color: #14bdac;
+      text-transform: capitalize;
+  }
+
+  
+  .win button{
+      margin: 10px;
+
+  }

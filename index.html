@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XO GAME</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <h1>Tic <span>Tac</span> Toe</h1>
+        <div class="names">
+            <div class="nameCul1">
+                <p>X team </p>
+                <input type="text" id="namePlayer1">
+            </div>
+            <div class="nameCul2">
+                <p>o team </p>
+                <input type="text" id="namePlayer2">
+            </div>
+        </div>
+        <div class="players">
+            <h1 id="player"></h1>
+
+        </div>
+
+        <div class="board">
+            <div class="Row1">
+                <div class="cells cul1" id="1"></div>
+                <div class="cells cul2" id="2"></div>
+                <div class="cells" id="3"></div>
+            </div>
+            <div class="Row2">
+                <div class="cells cul1" id="4"></div>
+                <div class="cells cul2" id="5"></div>
+                <div class="cells" id="6"></div>
+            </div>
+            <div class="Row3">
+                <div class="cells cul1" id="7"></div>
+                <div class="cells cul2" id="8"></div>
+                <div class="cells" id="9"></div>
+            </div>
+
+
+        </div>
+
+        <button>Clear</button>
+
+        <div class="win">
+            <h1 id="playerWin"></h1> <button id="Continue">Continue Same Game</button> <button id="restart">Start New
+                Game</button>
+        </div>
+
+
+    </div>
+    <div class="Records">
+        <h1>Records</h1>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
